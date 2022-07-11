@@ -15,7 +15,7 @@ public class Task4 {
         digitFromIntegerPartOfNumber = integerPartOfNumber % 10;
 
         int digitFromFractionalPartOfNumber;
-        digitFromFractionalPartOfNumber = (int)(number * 10) % 10;
+        digitFromFractionalPartOfNumber = (int) (number * 10) % 10;
 
         double resultNumber;
         resultNumber = digitFromFractionalPartOfNumber * 111 + digitFromIntegerPartOfNumber * 0.111;
